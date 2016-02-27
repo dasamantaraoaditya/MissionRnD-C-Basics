@@ -13,9 +13,13 @@
   <ItemGroup>
     <ClCompile Include="count.cpp" />
     <ClCompile Include="isOlder.cpp" />
+    <ClCompile Include="MainBasics.cpp" />
     <ClCompile Include="sum.cpp" />
     <ClCompile Include="swap.cpp" />
     <ClCompile Include="variableArguments.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FunctionHeadersBasics.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{08614FFC-DC72-4C5C-8706-2FC1A3F2B78F}</ProjectGuid>
@@ -24,7 +28,7 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v120</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>

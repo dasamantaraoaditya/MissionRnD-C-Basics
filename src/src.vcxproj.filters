@@ -30,5 +30,13 @@
     <ClCompile Include="variableArguments.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MainBasics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FunctionHeadersBasics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
